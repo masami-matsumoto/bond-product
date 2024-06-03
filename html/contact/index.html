@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact｜BOND</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/common.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
+<script src="../assets/js/script.js" defer></script>
+</head>
+
+<body>
+<header class="header">
+  <div class="header__inner">
+    <p class="header__logo"><a href="../index.html"><img src="../assets/img/logo.svg" alt="BOND"></a></p>
+    <button id="hamburger" class="hamburger" aria-label="メニューを開く" aria-controls="gnav" aria-expanded="false"> <span class="hamburger__line" aria-hidden="true"></span> </button>
+    <nav id="gnav" class="gnav" aria-label="メインメニュー">
+      <ul class="gnav__list">
+        <li class="gnav__item"><a href="../about/index.html" class="gnav__link">ABOUT</a></li>
+        <li class="gnav__item"><a href="../service/index.html" class="gnav__link">SERVICE</a></li>
+        <li class="gnav__item"><a href="../contact/index.html" class="gnav__link">CONTACT</a></li>
+      </ul>
+      <ul class="spmenu__sns">
+        <li><a href="#" target="_blank"><img src="../assets/img/facebook.png" alt="Facebook"/></a></li>
+        <li><a href="#" target="_blank"><img src="../assets/img/insta.png" alt="Instagram"/></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="main-contents">
+  <div class="container">
+    <section class="section">
+      <h1 class="section__title"><img src="../assets/img/bn_contact.png" alt="Contact"/></h1>
+      <p class="section__subtitle">お問い合わせ</p>
+      <!-- フォーム -->
+      <div class="form">
+        <p class="contact__attention">※は必須事項になります</p>
+        <form action="">
+          <div class="form-inner">
+            <div class="form-input js-clearableRadio"> <span class="radio-inner">
+              <input type="radio" id="houzin" name="q1" value="houzin">
+              <label for="houzin">法人</label>
+              </span> <span class="radio-inner">
+              <input type="radio" id="kozin" name="q1" value="kozin">
+              <label for="kozin">個人</label>
+              </span> </div>
+          </div>
+          <div class="form-inner">
+            <div class="form-label">
+              <label for="name">お名前</label>
+              <span class="required">※</span> </div>
+            <div class="form-input">
+              <input type="text" id="name" name="name" required>
+            </div>
+          </div>
+          <div class="form-inner">
+            <div class="form-label">
+              <label for="kana">フリガナ</label>
+              <span class="required">※</span> </div>
+            <div class="form-input">
+              <input type="text" id="kana" name="name" required>
+            </div>
+          </div>
+          <div class="form-inner">
+            <div class="form-label">
+              <label for="company">会社名</label>
+            </div>
+            <div class="form-input">
+              <input type="text" id="company" name="name" required>
+            </div>
+          </div>
+          <div class="form-inner">
+            <div class="form-label">
+              <label for="tel">お電話番号</label>
+              <span class="required">※</span> </div>
+            <div class="form-input">
+              <input type="text" id="tel" name="name" required>
+            </div>
+          </div>
+          <div class="form-inner">
+            <div class="form-label">
+              <label for="form-email-1">メールアドレス</label>
+              <span class="required">※</span>
+              <p class="form-note">(半角文字)</p>
+            </div>
+            <div class="form-input">
+              <input type="email" id="form-email-1" name="email" autocomplete="email" required>
+            </div>
+          </div>
+          <div class="form-inner">
+            <div class="form-label">
+              <label for="form-email-2">メールアドレス(確認用)</label>
+              <span class="required">※</span>
+              <p class="form-note">(半角文字)</p>
+            </div>
+            <div class="form-input">
+              <input type="email" id="form-email-2" name="email" autocomplete="email" required>
+            </div>
+          </div>
+          <div class="form-inner">
+            <div class="form-label">
+              <label for="form-item">ご希望商品<span class="form-note">(複数選択可)</span></label>
+            </div>
+            <div class="form-input js-clearableRadio"> <span class="radio-inner">
+              <input type="radio" id="item1" name="" value="item1">
+              <label for="item1">香水</label>
+              </span> <span class="radio-inner">
+              <input type="radio" id="item2" name="" value="item2">
+              <label for="item2">デュフューザー</label>
+              </span> <span class="radio-inner">
+              <input type="radio" id="item3" name="" value="item3">
+              <label for="item3">キャンドル</label>
+              </span> <span class="radio-inner">
+              <input type="radio" id="item4" name="" value="item4">
+              <label for="item4">その他</label>
+              </span> </div>
+          </div>
+          <div class="form-inner">
+            <div class="form-label">
+              <label for="form-num1">ご希望数量</label>
+            </div>
+            <div class="form-input">
+              <input type="text" id="form-num1" name="" required>
+            </div>
+          </div>
+          <div class="form-inner">
+            <div class="form-label">
+              <label for="form-num2">ご希望納期</label>
+            </div>
+            <div class="form-input">
+              <input type="text" id="form-num2" name="" required>
+            </div>
+          </div>
+          <div class="form-inner">
+            <div class="form-label">
+              <label for="form-num3">ご予算</label>
+            </div>
+            <div class="form-input">
+              <input type="text" id="form-num3" name="" required>
+            </div>
+          </div>
+          <div class="form-inner">
+            <div class="form-label">
+              <label for="form-details">お問い合わせ内容</label>
+            </div>
+            <div class="form-input">
+              <textarea id="form-details" name="details"></textarea>
+            </div>
+          </div>
+          <div class="form-privacy">
+            <p>「個人情報保護について」に同意の上、お問い合わせください。</p>
+            <p class="form-note">「個人情報保護について」は、<a href="#">プライバシーポリシー</a>をご確認ください</p>
+            <label>
+              <input type="checkbox">
+              同意する</label>
+            <button type="submit" class="form-btn">入力内容を確認する</button>
+          </div>
+          <p class="form-note">・土日、祝祭日、年末年始、夏季期間は翌営業日以降の対応となりますのでご了承ください。<br>
+            ・また、お問い合わせ内容により対応にお時間をいただく場合がございますのでご了承ください。</p>
+        </form>
+      </div>
+    </section>
+  </div>
+</main>
+<footer class="footer">
+  <div class="footer__inner">
+    <ul class="footer__sns">
+      <li><a href="#" target="_blank"><img src="../assets/img/facebook.png" alt="Facebook"/></a></li>
+      <li><a href="#" target="_blank"><img src="../assets/img/insta.png" alt="Instagram"/></a></li>
+    </ul>
+    <div class="footer__link">
+      <ul class="footer__menu">
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">PRIVACYPOLICY</a></li>
+        <li class="footer__menu-pc"><a href="#" target="_blank"><img src="../assets/img/facebook.png" alt="Facebook"/></a></li>
+        <li class="footer__menu-pc"><a href="#" target="_blank"><img src="../assets/img/insta.png" alt="Instagram"/></a></li>
+      </ul>
+      <div class="footer__logo"><a href="/"><img src="../assets/img/logo.svg" alt="BOND"></a></div>
+    </div>
+    <p class="footer__info">株式会社BOND<br>
+      〒156-0045 東京都世田谷区桜上水2-6-1 GH102<br>
+      TEL:03-6379-6153<br>
+      FAX:03-6379-6154</p>
+    <p class="footer__copyright"><small lang="en">ⓒBOND Inc.</small></p>
+  </div>
+</footer>
+</body>
+</html>

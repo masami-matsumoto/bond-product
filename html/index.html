@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BOND</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="assets/css/common.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
+<script src="assets/js/script.js" defer></script>
+</head>
+
+<body>
+<header class="header">
+  <div class="header__inner">
+    <h1 class="header__logo"><a href="/"><img src="assets/img/logo.svg" alt="BOND"></a></h1>
+    <button id="hamburger" class="hamburger" aria-label="メニューを開く" aria-controls="gnav" aria-expanded="false"> <span class="hamburger__line" aria-hidden="true"></span> </button>
+    <nav id="gnav" class="gnav" aria-label="メインメニュー">
+      <ul class="gnav__list">
+        <li class="gnav__item"><a href="about/index.html" class="gnav__link">ABOUT</a></li>
+        <li class="gnav__item"><a href="service/index.html" class="gnav__link">SERVICE</a></li>
+        <li class="gnav__item"><a href="contact/index.html" class="gnav__link">CONTACT</a></li>
+      </ul>
+      <ul class="spmenu__sns">
+        <li><a href="#" target="_blank"><img src="assets/img/facebook.png" alt="Facebook"/></a></li>
+        <li><a href="#" target="_blank"><img src="assets/img/insta.png" alt="Instagram"/></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="main-contents">
+  <div class="mv">
+    <div class="swiper mvSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <picture>
+            <source media="(min-width:767px)" srcset="assets/img/main1.jpg">
+            <img src="assets/img/main_sp1.jpg" alt=""/> </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source media="(min-width:767px)" srcset="assets/img/main2.jpg">
+            <img src="assets/img/main_sp2.jpg" alt=""/> </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source media="(min-width:767px)" srcset="assets/img/main3.jpg">
+            <img src="assets/img/main_sp3.jpg" alt=""/> </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source media="(min-width:767px)" srcset="assets/img/main4.jpg">
+            <img src="assets/img/main_sp4.jpg" alt=""/> </picture>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+  <div class="container">
+    <section class="section">
+      <h2 class="section__title"><img src="assets/img/bn_about.png" alt="About"/></h2>
+      <div class="about">
+        <figure class="about__thumb"><img src="assets/img/top1.jpg" alt=""/></figure>
+        <div class="about__body">
+          <p class="about__text">香水をはじめとした化粧品を中心に、<br>
+            ディフューザーやキャンドルなどを含む<br>
+            フレグランス商品のOEMを行っております。<br>
+            お客様のイメージをカタチにするサポートを<br>
+            企画から製造まで一貫してさせていただきます。</p>
+        </div>
+      </div>
+      <p class="section__button"><a href="#" class="button--sm">READ MORE</a></p>
+    </section>
+    <section class="section section--border">
+      <h2 class="section__title"><img src="assets/img/bn_service.png" alt="Service"/></h2>
+      <p class="section__lead service__lead">“あなたの特別“をプランニングする、<span>フレグランス商品のOEM</span></p>
+      <div class="grid grid--pc3col card-list service__list">
+        <section class="grid__item card">
+          <div class="card__body">
+            <h3 class="card__title">カスタマイズ可能な商品作り</h3>
+            <p class="card__text">お客様のブランドや製品の
+              オリジナル性を最大限に
+              引き出すために、香り・
+              パッケージ・デザインなど、
+              さまざまな要素をカスタマ
+              イズ出来る柔軟性を持っています。</p>
+          </div>
+          <div class="card__image"> <img src="assets/img/icon1.png" alt=""/> </div>
+        </section>
+        <section class="grid__item card">
+          <div class="card__body">
+            <h3 class="card__title">安全と品質管理</h3>
+            <p class="card__text">厳格な品質管理基準に従い、原材料の
+              選定から製造・検査・出荷まで、製品
+              の品質を確保します。また、規制や法
+              令を遵守し、お客様のプライバシーや
+              機密情報を守ることにも配慮しています。</p>
+          </div>
+          <div class="card__image"> <img src="assets/img/icon2.png" alt=""/> </div>
+        </section>
+        <section class="grid__item card">
+          <div class="card__body">
+            <h3 class="card__title">顧客志向なアプローチ</h3>
+            <p class="card__text">お客様との密なコミュニケーションを
+              重視し、案件やスケジュールに合わせ
+              て効率的かつ迅速に対応します。
+              お客様のビジネスの成功をお手伝いす
+              べく、理想や希望を上回るプロダクト
+              を提供致します</p>
+          </div>
+          <div class="card__image"> <img src="assets/img/icon3.png" alt=""/> </div>
+        </section>
+      </div>
+      <p class="section__button"><a href="#" class="button--sm">READ MORE</a></p>
+    </section>
+    <section class="section section--border">
+      <h2 class="section__title"><img src="assets/img/bn_news.png" alt="News"/></h2>
+      <dl class="news">
+        <div class="news__item">
+          <dt class="news__date">
+            <time>2024.01,01</time>
+          </dt>
+          <dd class="news__data">コメントが入ります。コメントが入ります。コメントが入ります。</dd>
+        </div>
+        <div class="news__item">
+          <dt class="news__date">
+            <time>2024.01,01</time>
+          </dt>
+          <dd class="news__data">コメントが入ります。コメントが入ります。コメントが入ります。</dd>
+        </div>
+        <div class="news__item">
+          <dt class="news__date">
+            <time>2024.01,01</time>
+          </dt>
+          <dd class="news__data">コメントが入ります。コメントが入ります。コメントが入ります。</dd>
+        </div>
+      </dl>
+      <p class="section__button"><a href="#" class="button--sm">READ MORE</a></p>
+    </section>
+  </div>
+</main>
+<aside class="cv-area">
+  <div class="container">
+    <h2 class="section__title"><a href="contact/index.html" class="button"><span class="noselect">CONTACT</span></a></h2>
+    <p class="cv-area__txt">ご相談、ご質問、お見積もりなどのお問い合わせは、<br>
+      こちらよりお気軽にお問い合わせください。 </p>
+    <p class="cv-area__attention">※ また、お問い合わせ内容により対応にお時間をいただく場合がございますのでご了承ください。</p>
+  </div>
+</aside>
+<footer class="footer">
+  <div class="footer__inner">
+    <ul class="footer__sns">
+      <li><a href="#" target="_blank"><img src="assets/img/facebook.png" alt="Facebook"/></a></li>
+      <li><a href="#" target="_blank"><img src="assets/img/insta.png" alt="Instagram"/></a></li>
+    </ul>
+    <div class="footer__link">
+      <ul class="footer__menu">
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">PRIVACYPOLICY</a></li>
+        <li class="footer__menu-pc"><a href="#" target="_blank"><img src="assets/img/facebook.png" alt="Facebook"/></a></li>
+        <li class="footer__menu-pc"><a href="#" target="_blank"><img src="assets/img/insta.png" alt="Instagram"/></a></li>
+      </ul>
+      <div class="footer__logo"><a href="/"><img src="assets/img/logo.svg" alt="BOND"></a></div>
+    </div>
+    <p class="footer__info">株式会社BOND<br>
+      〒156-0045 東京都世田谷区桜上水2-6-1 GH102<br>
+      TEL:03-6379-6153<br>
+      FAX:03-6379-6154</p>
+    <p class="footer__copyright"><small lang="en">ⓒBOND Inc.</small></p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+</body>
+</html>

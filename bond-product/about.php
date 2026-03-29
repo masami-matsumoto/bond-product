@@ -36,8 +36,8 @@ get_header();
               <td>2024年3月</td>
             </tr>
             <tr>
-              <th> 代表名 </th>
-              <td>代市　旬</td>
+              <th> 代表者 </th>
+              <td>代表取締役　代市　旬</td>
             </tr>
             <tr>
               <th> 資本金 </th>
@@ -58,6 +58,10 @@ get_header();
                 食品及び飲料のOEM</td>
             </tr>
             <tr>
+              <th>化粧品製造販売業許可番号 </th>
+              <td>13C0X12298</td>
+            </tr>
+            <tr>
               <th>取引銀行 </th>
               <td>城南信用金庫　桜上水支店</td>
             </tr>
@@ -68,7 +72,7 @@ get_header();
           </tbody>
         </table>
       </div>
-      <div class="about__img"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about1.jpg" alt=""/> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about2.jpg" class="_sp-none" alt=""/> </div>
+      <div class="about__img"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about1.jpg" class="fadeUpTrigger" alt=""/> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about2.jpg" class="_sp-none fadeUpTrigger" alt=""/> </div>
     </section>
   </div>
 </main>
@@ -76,7 +80,7 @@ get_header();
   <div class="container">
     <h2 class="section__title"><a href="/contact/" class="button"><span class="noselect">CONTACT</span></a></h2>
     <p class="cv-area__txt">ご相談、ご質問、お見積もりなどのお問い合わせは、<br>
-      こちらよりお気軽にお問い合わせください。 </p>
+      こちらよりお気軽にご連絡ください。</p>
     <p class="cv-area__attention">※ また、お問い合わせ内容により対応にお時間をいただく場合がございますのでご了承ください。</p>
   </div>
 </aside>

@@ -1,8 +1,9 @@
 <footer class="footer">
+<?php wp_footer(); ?>
   <div class="footer__inner">
     <ul class="footer__sns">
-      <li><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook.png" alt="Facebook"/></a></li>
-      <li><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/insta.png" alt="Instagram"/></a></li>
+      <li><a href="https://www.facebook.com/fragrance.BOND" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook.png" alt="Facebook"/></a></li>
+      <li><a href="https://www.instagram.com/fragrance.bond/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/insta.png" alt="Instagram"/></a></li>
     </ul>
     <div class="footer__link">
       <ul class="footer__menu">

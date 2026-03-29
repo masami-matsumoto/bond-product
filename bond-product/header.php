@@ -16,9 +16,12 @@
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/common.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/fadeanime.css">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/confirmation.js" defer></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/cf7-redirect.js" defer></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js" defer></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/fadeanime.js" defer></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z3TL6EZQ6Z"></script>
 <script>
@@ -28,7 +31,7 @@
 
   gtag('config', 'G-Z3TL6EZQ6Z');
 </script>
-
+<?php wp_head(); ?>
 </head>
 
 <body>

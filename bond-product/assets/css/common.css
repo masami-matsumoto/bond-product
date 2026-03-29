@@ -214,7 +214,7 @@ a:hover {
   /*現在位置の指定をaria-current属性に変更*/
   .gnav__link[aria-current] {
     padding-left: 15px;
-    border-left: 1.5px solid #c3d4e3;
+    border-left: 5px solid #c3d4e3;
   }
   .spmenu__sns {
     position: absolute;
@@ -247,7 +247,7 @@ a:hover {
     content: "";
     display: block;
     width: 100%;
-    height: 2px;
+    height: 4px;
     background: #c3d4e3;
   }
   .spmenu__sns {
@@ -363,9 +363,8 @@ a:hover {
   padding-left: 20px;
   padding-right: 20px;
 }
-
 .container._narrow {
-    max-width: 800px;
+  max-width: 800px;
 }
 /*----------------------------------------
 	section
@@ -939,8 +938,7 @@ a.card:hover .card__btn::after, a.card:focus .card__btn::after {
 .post-body > ol {
   padding-right: 10px;
   padding-top: 10px;
-  padding-bottom: 10px
-  /*背景色などのCSSは省略*/
+  padding-bottom: 10px /*背景色などのCSSは省略*/
 }
 .post-body table {
   width: 100%;
@@ -961,10 +959,7 @@ a.card:hover .card__btn::after, a.card:focus .card__btn::after {
   text-align: left;
   vertical-align: middle;
 }
-.post-body img.alignnone,
-.post-body img.alignleft,
-.post-body img.alignright,
-.post-body img.aligncenter {
+.post-body img.alignnone, .post-body img.alignleft, .post-body img.alignright, .post-body img.aligncenter {
   display: block;
   max-width: 100%;
   width: auto;
@@ -989,14 +984,13 @@ a.card:hover .card__btn::after, a.card:focus .card__btn::after {
     margin-bottom: 10px;
   }
 }
-
 /* 投稿記事ナビゲーション
 ------------------------------------------------------ */
 .post-nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  grid-template-areas: "prev next" "back back";
+  grid-template-areas: "prev next""back back";
   margin-top: 80px;
 }
 @media screen and (min-width: 768px), print {
@@ -1007,17 +1001,16 @@ a.card:hover .card__btn::after, a.card:focus .card__btn::after {
     grid-template-areas: "prev back next";
   }
 }
-
 .post-nav__btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 142px;
   height: 50px;
   border-radius: 6px;
@@ -1036,7 +1029,7 @@ a.card:hover .card__btn::after, a.card:focus .card__btn::after {
   border-top: 2px solid;
   border-right: 2px solid;
   -webkit-transform: rotate(-135deg);
-          transform: rotate(-135deg);
+  transform: rotate(-135deg);
 }
 .post-nav__btn._next {
   grid-area: next;
@@ -1050,9 +1043,8 @@ a.card:hover .card__btn::after, a.card:focus .card__btn::after {
   border-top: 2px solid;
   border-right: 2px solid;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
-
 .post-nav__back {
   grid-area: back;
   justify-self: center;
@@ -1065,10 +1057,9 @@ a.card:hover .card__btn::after, a.card:focus .card__btn::after {
   .post-nav__back {
     margin-top: 0;
     -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
   }
 }
-
 /* トップページ
 ------------------------------------------------------ */
 .section__button {
@@ -1083,8 +1074,8 @@ a.card:hover .card__btn::after, a.card:focus .card__btn::after {
 }
 .about__body {
   margin-top: 40px;
-  text-align: left;
-  font-size: ;
+  text-align: center;
+  font-size: 14px;
 }
 @media screen and (min-width: 768px), print {
   .about {
@@ -1141,7 +1132,6 @@ a.card:hover .card__btn::after, a.card:focus .card__btn::after {
   padding: 15px 0;
 }
 .news__date {
-  font-size: 12px;
   letter-spacing: 0.17em;
   margin-bottom: 1rem;
 }
@@ -1174,7 +1164,7 @@ a.card:hover .card__btn::after, a.card:focus .card__btn::after {
   .news__date {
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    width: 160px;
+    width: 180px;
     margin-bottom: 0;
     margin-right: 60px;
   }
@@ -1359,7 +1349,6 @@ a.card:hover .card__btn::after, a.card:focus .card__btn::after {
 .oemMedia {
   display: flex;
   flex-direction: column-reverse;
-  margin-top: 30px;
 }
 .oemMedia__body {
   margin-top: 40px;
@@ -1513,7 +1502,7 @@ Form
   display: inline-block;
   margin-right: 0.5rem;
 }
-input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="date"]{
+input[type="text"], input[type="email"] {
   width: 100%;
   height: 40px;
   background: var(--light-grey);
@@ -1544,7 +1533,6 @@ textarea {
   margin: 1.5rem auto 0;
   font-family: 'Noto Sans JP', sans-serif;
   cursor: pointer;
-  border: 1.5px solid #646464;
 }
 .form-btn:hover {
   background: #fff;
@@ -1576,10 +1564,6 @@ a.form-btn {
   }
   .form-input {
     width: 100%;
-  }
-  .radio-inner {
-    display: grid;
-    margin-right: 0.5rem;
   }
 }
 /* システムメッセージ
@@ -1621,46 +1605,17 @@ a.form-btn {
   padding: 20px;
 }
 .btn--action, .btn--back {
-	width: 100%;
+  width: 100%;
 }
 @media screen and (min-width: 768px), print {
-	.form-btn.btn--action{
-		margin-left: 20px;
-		margin-top: 0;
-	}
-}
-
-/* シングルページ
------------------------------------------------------- */
-.page-date {
-  padding: 30px 0;
-}
-.wp-block-preformatted {
-  white-space: pre-wrap; /* 改行を含むテキストを折り返し */
-  word-wrap: break-word; /* 長い単語を折り返し */
-  overflow-wrap: break-word; /* 長い単語を折り返し（モダンブラウザ用） */
-  max-width: 100%; /* コンテナの幅に合わせる */
-  box-sizing: border-box; /* パディングとボーダーが幅に含まれるように */
-  padding-bottom: 30px;
-}
-
-/* ブランク調整
------------------------------------------------------- */
-.br-sp {
-  display: none;
-}
-
-@media screen and (min-width: 768px), print {
-  .br-sp {
-    display: inline-block;
+  .form-btn.btn--action {
+    margin-left: 20px;
+    margin-top: 0;
   }
 }
-
-/* コンタクトフォームページ
------------------------------------------------------- */
-.wpcf7-list-item {
-  margin-right: 0.5rem;
-}
-.wpcf7-list-item-label {
-  margin-left: 0.5rem;
+/* 追加 */
+@media (min-width: 600px) and (max-width: 767px) {
+  .spmenu__sns {
+    display: none;
+  }
 }

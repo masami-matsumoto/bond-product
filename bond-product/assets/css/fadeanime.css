@@ -1,0 +1,12 @@
+.fadeUpTrigger {
+    opacity: 0; /* 初期状態を非表示にする */
+    transform: translateY(20px); /* 初期状態で少し下にずらす */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* スムーズなアニメーション */
+    will-change: opacity, transform; /* アニメーションの最適化 */
+  }
+  
+  .fadeUp {
+    opacity: 1;
+    transform: translateY(0); /* 元の位置に戻す */
+  }
+  

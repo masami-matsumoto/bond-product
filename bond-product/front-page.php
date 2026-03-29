@@ -32,7 +32,7 @@
     <section class="section">
       <h2 class="section__title"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/bn_about.png" alt="About"/></h2>
       <div class="about">
-        <figure class="about__thumb"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top1.jpg" alt="私たちについて"/></figure>
+        <figure class="about__thumb fadeUpTrigger"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top1.jpg" alt="私たちについて"/></figure>
         <div class="about__body">
           <p class="about__text">
             香水をはじめとした化粧品を中心に、ディフューザーやキャン<br class="br-sp">ドルなどを含むフレグランス商品のOEMを行っております。<br>
@@ -121,7 +121,7 @@
   <div class="container">
     <h2 class="section__title"><a href="/contact/" class="button"><span class="noselect">CONTACT</span></a></h2>
     <p class="cv-area__txt">ご相談、ご質問、お見積もりなどのお問い合わせは、<br>
-      こちらよりお気軽にお問い合わせください。 </p>
+      こちらよりお気軽にご連絡ください。</p>
     <p class="cv-area__attention">※ また、お問い合わせ内容により対応にお時間をいただく場合がございますのでご了承ください。</p>
   </div>
 </aside>

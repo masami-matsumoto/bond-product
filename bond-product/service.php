@@ -36,7 +36,7 @@ get_header();
                 香りを使ったアイテムは一括してBONDにお任せいただけます。</dd>
             </dl>
           </div>
-          <figure class="oemMedia__thumb"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/service1.jpg" alt=""/></figure>
+          <figure class="oemMedia__thumb fadeUpTrigger"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/service1.jpg" alt=""/></figure>
         </div>
         <div class="oemMedia _reverse">
           <div class="oemMedia__body">
@@ -49,7 +49,7 @@ get_header();
                 パッケージやラベルの形状・素材なども仕様に応じて、カスタマイズ可能です。</dd>
             </dl>
           </div>
-          <figure class="oemMedia__thumb _sp-none"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/service2.jpg" alt=""/></figure>
+          <figure class="oemMedia__thumb _sp-none fadeUpTrigger"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/service2.jpg" alt=""/></figure>
         </div>
       </section>
       <section class="oem section">
@@ -59,8 +59,7 @@ get_header();
             <div class="number">1</div>
             <div class="image"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon5.png" alt=""> </div>
             <h3 class="title">ヒアリング</h3>
-            <p class="content">ご希望の商品イメージをお聞かせください。<br>
-              お客様の「作りたい」をお聞かせください。 </p>
+            <p class="content">お客様の「作りたい」をカタチにしていくために、ご希望の商品イメージをお聞かせください。</p>
           </li>
           <li class="oemList__item">
             <div class="number">2</div>
@@ -111,7 +110,7 @@ get_header();
                 商品の充填、梱包を国内で行うため、日本の高水準な商品クオリティをお約束いたします。 </dd>
             </dl>
           </div>
-          <figure class="oemMedia__thumb"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/service3.jpg" alt=""/></figure>
+          <figure class="oemMedia__thumb fadeUpTrigger"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/service3.jpg" alt=""/></figure>
         </div>
       </section>
       <section class="oem section">
@@ -129,7 +128,7 @@ get_header();
                 BONDは、商品を具現化・製造するだけでなく、どう見せるかまでを考え、ご提案しお手伝いすることを商品作りと考えています。 </dd>
             </dl>
           </div>
-          <figure class="oemMedia__thumb"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/service4.jpg" alt=""/></figure>
+          <figure class="oemMedia__thumb fadeUpTrigger"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/service4.jpg" alt=""/></figure>
         </div>
       </section>
     </section>
@@ -180,7 +179,7 @@ get_header();
   <div class="container">
     <h2 class="section__title"><a href="/contact/" class="button"><span class="noselect">CONTACT</span></a></h2>
     <p class="cv-area__txt">ご相談、ご質問、お見積もりなどのお問い合わせは、<br>
-      こちらよりお気軽にお問い合わせください。 </p>
+      こちらよりお気軽にご連絡ください。</p>
     <p class="cv-area__attention">※ また、お問い合わせ内容により対応にお時間をいただく場合がございますのでご了承ください。</p>
   </div>
 </aside>

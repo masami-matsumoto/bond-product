@@ -102,7 +102,7 @@ function wpcf7_custom_email_validation_filter( $result, $tag ) {
 add_filter( 'wpcf7_validate_email', 'wpcf7_custom_email_validation_filter', 20, 2 );
 add_filter( 'wpcf7_validate_email*', 'wpcf7_custom_email_validation_filter', 20, 2 );
 
-// お問い合わせフォーム確認画面用javascript
+// お問い合わせフォーム確認画面用javascript confirmation.js
 function enqueue_confirmation_script() {
   wp_enqueue_script('confirmation-script', get_template_directory_uri() . '/js/confirmation.js', array('jquery'), null, true);
 }
